@@ -1,8 +1,8 @@
-# prova-visao-computacional
+# prova-visão-computacional
 
-# Descriçao do problema 
+# Descrição do problema 
 
-Projeto criado visando desenvolver um classificador automatico de imagens de gatos e cachorros usando CNN. 
+Projeto criado visando desenvolver um classificador automático de imagens de gatos e cachorros usando CNN. 
 
 Etapas:
 
@@ -25,21 +25,24 @@ Pré-processamento de Imagens:
 - Etapa 1 -> Busca dos paths das imagens locais;
 - Etapa 2 -> carrega imagem recuperada graças ao path;
 - Etapa 3 -> altera seu tamanho para 128x128;
-- Etapa 4 -> Aplica o Filtro Gaussiano;
+- Etapa 4 -> Aplicar o Filtro Gaussiano;
 - Etapa 5 -> Convertendo para cinza
 - Etapa 6 -> Aplica a Equalização de histograma.
 - Etapa 7 -> Exibe todas as imagens.
 
 Classificação com IA:
-- Etapa 1 -> Inicia contador de tempo de execuçao 
+- Etapa 1 -> Inicia contador de tempo de execução 
 - Etapa 2 -> Carrega o dataset cifar10
 - Etapa 3 -> Realiza o filtro do dataset para apenas gatos e cachorros.
-- Etapa 4 -> Divide os dados filtratos em:  80% treinamento, 20% para teste.
-- Etapa 5 -> Constrói uma CNN com camadas convolucionais, pooling e dropout.
-- Etapa 6 -> Inicia o treino com 70 epocas. Se fez necessario pois  aumentar a diversidade dos dados de treinamento com RandomFlip e RandomRotation fez cair muito a acurácia.
+- Etapa 4 -> Divide os dados filtrados em:  80% treinamento, 20% para teste.
+- Etapa 5 -> Constroi uma CNN com camadas convolucionais, pooling e dropout.
+- Etapa 6 -> Inicia o treino com 70 épocas. Se fez necessário pois  aumentar a diversidade dos dados de treinamento com RandomFlip e RandomRotation fez cair muito a acurácia.
 - Etapa 7 -> Plota a acurácia, Precisão, Recall, F1-score.
 - Etapa 8 -> Realiza a classificação de imagens locais.
 - Etapa 9 -> Plota as curvas de aprendizado.
+
+
+
 
 # Resultados obtidos
 Pré-processamento de Imagens:
