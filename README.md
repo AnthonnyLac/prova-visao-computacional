@@ -42,8 +42,6 @@ Classificação com IA:
 - Etapa 9 -> Plota as curvas de aprendizado.
 
 
-
-
 # Resultados obtidos
 Pré-processamento de Imagens:
 ![image](https://github.com/user-attachments/assets/184a6a5e-7871-41da-9c4b-76192b36141c)
@@ -54,6 +52,30 @@ Pré-processamento de Imagens:
 ![image](https://github.com/user-attachments/assets/c81444cd-c452-4d59-ad94-f790a1c515d5)
 
 Classificação com IA:
+Acurácia final -> 0.8108
+Relatório de ClassificaçãoÇ
+![image](https://github.com/user-attachments/assets/7d4c5d3d-ab7a-4d35-8c2a-7921ea85f4d5)
+
+ou seja, quando o modelo diz que é a imagem de um gato ele acerta 0.79, já quando diz que é um cachorro ele tem a precisao de 0.83. isso significa que 79% das afirmaçoes de gato estao corretas e 83% das afirmaçoes de cachorro estao corretas.
+Baseado no recall temos que os verdadeiros postivos do modelo foi 85% para gatos e 78& pra cachorros.
+
+Matriz de Confusão:
+![image](https://github.com/user-attachments/assets/a2bcdad6-070f-4503-afd4-f71b0577f517)
+
+onde:
+270 cachorros foram erroneamente classificados como gato.
+
+analisando os dados obtidos, foi possivel identificar que o model tem uma boa precissao para gatos e cachorros, mas tende a confundir cachorros com gatos. 
+
+Classificando imagens locais:
+![image](https://github.com/user-attachments/assets/2c11a386-9e3d-4660-a9fb-7a1acd8a2b35)
 
 
+# Tempo total gasto
+![image](https://github.com/user-attachments/assets/fdf8fb32-03e1-4ca1-b883-596b51dd9ed5)
 
+Esse tempo é do inicio da execuçao da pipeline para classificação com ia até seu fim. Print retirado do codigo rodando local, o google collab apresentou uma demora exponecialmente maior, desencorajando assim sua utilizaçao.
+
+# Dificuldades encontradas
+
+A principal dificuldade encontrada foi a tendencia do modelo a classificar cachorros como gatos, inicialmetne das 6 imagens de gatos e 6 de cachorros presentadas para serem classificas, 10 eram apontadas como gatos, esse problema acabou ocassionando varias horais de entendimento do codigo, criando a necessidade de adicionar uma quantidade maior de camadas no modelo, com a responsabilidade de desligar neuronios e tambem rotacionar a imagem no treinamento para que houvesse uma maior amostra, isso fez com que a acuracia do modelo caisse, sendo necessario agora uma grande quantidade de epocas para atingir um resultado por mais que ainda incerto, mais satisfatorio.
