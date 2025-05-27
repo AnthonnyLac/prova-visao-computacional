@@ -1,5 +1,8 @@
 # prova-visão-computacional
 
+# Versão python
+3.11.x
+
 # Descrição do problema 
 
 Projeto criado visando desenvolver um classificador automático de imagens de gatos e cachorros usando CNN. 
