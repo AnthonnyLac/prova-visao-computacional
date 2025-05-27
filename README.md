@@ -43,4 +43,14 @@ Classificação com IA:
 
 # Resultados obtidos
 Pré-processamento de Imagens:
+![image](https://github.com/user-attachments/assets/184a6a5e-7871-41da-9c4b-76192b36141c)
+![image](https://github.com/user-attachments/assets/0ab5e3f4-c499-4785-9265-842837ffe28f)
+![image](https://github.com/user-attachments/assets/14914f94-c903-4c94-b272-fe4ddcdf6873)
+![image](https://github.com/user-attachments/assets/3e0d1491-0b1c-4196-8747-bfe13ab72768)
+![image](https://github.com/user-attachments/assets/c397d82c-48a6-4d3d-a7a7-47c61d5a503c)
+![image](https://github.com/user-attachments/assets/c81444cd-c452-4d59-ad94-f790a1c515d5)
+
+Classificação com IA:
+
+
 
